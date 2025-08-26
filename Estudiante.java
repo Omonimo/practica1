@@ -109,7 +109,11 @@ public class Estudiante {
      */
     public String toString() {
         // Aquí va su código.
-        return "Nombre: " + this.getNombre() + ", Cuenta: " + this.getCuenta() + ", Promedio: " + this.getPromedio() + ", Edad: " + this.getEdad() ;
+        return String.format("Nombre   : %s\n" +
+                         "Cuenta   : %d\n" +
+                         "Promedio : %.2f\n" +
+                         "Edad     : %d",
+                         nombre, cuenta, promedio, edad);
     }
 
     /**
