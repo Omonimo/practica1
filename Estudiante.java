@@ -110,8 +110,8 @@ public class Estudiante {
     public String toString() {
         // Aquí va su código.
         return String.format("Nombre   : %s\n" +
-                         "Cuenta   : %d\n" +
-                         "Promedio : %.2f\n" +
+                         "Cuenta   : %09d\n" +
+                         "Promedio : %2.2f\n" +
                          "Edad     : %d",
                          nombre, cuenta, promedio, edad);
     }
